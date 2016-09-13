@@ -13,7 +13,7 @@ export interface Note {
 };
 
 export interface State {
-    notes: Array<Note>;
+    notes: Note[];
 };
 
 const defaultState = {
@@ -35,7 +35,6 @@ export class Store {
     }
 
     getState() {
-        console.log(_store);
         return this._store.value;
     }
 

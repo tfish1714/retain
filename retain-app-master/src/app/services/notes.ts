@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Note } from '../store';
 import { ApiService } from './api';
-import { StoreHelper } from './storehelper';
+import { StoreHelper } from './store-helper';
 import 'rxjs/Rx';
 
 @Injectable()
